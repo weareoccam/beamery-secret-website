@@ -1,6 +1,6 @@
 ## Description
 
-Occam website, built on [Middleman](http://middlemanapp.com).
+Beamery website, built on [Middleman](http://middlemanapp.com).
 
 ## Dependencies
 
