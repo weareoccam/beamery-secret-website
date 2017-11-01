@@ -1,6 +1,6 @@
 .c-top-section {
   position: relative;
-  background-color: #333;
+  background-color: $bmr-dark-100;
 
   @include vertical-padding(10rem, 4rem);
 
@@ -34,9 +34,11 @@
 }
 
 .c-top-section__heading {
+  color: $bmr-white;
   text-align: center;
 }
 
 .c-top-section__subheading {
+  color: $bmr-white;
   text-align: center;
 }
