@@ -1,5 +1,6 @@
 .c-top-section {
   position: relative;
+  background-color: #333;
 
   @include vertical-padding(10rem, 4rem);
 
@@ -22,6 +23,10 @@
   & + &:not(.c-section--maintain-padding):not(.c-section--border) {
     padding-top: 0;
   }
+
+  .c-top-section__buttons {
+    margin: 0 auto;
+  }
 }
 
 .c-top-section--short {
@@ -29,17 +34,9 @@
 }
 
 .c-top-section__heading {
-  font-family: $font-family;
-  line-height: $heading-line-height-tight;
-  letter-spacing: $serif-font-letter-spacing;
-  margin-bottom: 10px;
-  font-weight: $font-weight-bolder;
+  text-align: center;
 }
 
 .c-top-section__subheading {
-  margin-bottom: 0;
-  font-family: $font-family;
-  font-weight: $font-weight-bold;
-  line-height: $base-line-height;
-  color: $o-primary;
+  text-align: center;
 }

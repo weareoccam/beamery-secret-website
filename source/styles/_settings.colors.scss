@@ -1,25 +1,34 @@
-// Misc
+// BMR COLOR PALETTE
 
-$o-primary: #AFA7DC;
+  // Primary
 
-$white: #fff;
-$off-white: #f3f3f3;
-$black: #000;
-$red: #f15e58;
-$green: #32C970;
+  $bmr-teal-light:              #3fc0b1;
+  $bmr-teal:                    #31b314;
+  $bmr-teal-dark:               #2ca496;
+
+  $bmr-blue:                    #3792ed;
+  $bmr-blue-light:              lighten($bmr-blue, 3%);
+  $bmr-blue-dark:               darken($bmr-blue, 3%);
+
+  $bmr-purple:                  #7b5fff;
+  $bmr-purple-light:            lighten($bmr-purple, 3%);
+  $bmr-purple-dark:             darken($bmr-purple, 3%);
 
 
-// Darkscale
+  // Secondary
 
-$grey-dark: #222;
-$grey: #555;
-$grey-light: #999;
-$grey-lightest: #dedede;
+  $bmr-orange:                  #aaaaaa;
+  $bmr-red:                     #aaaaaa;
+  $bmr-green:                   #aaaaaa;
+  $bmr-yellow:                  #aaaaaa;
+  $bmr-white:                   #ffffff;
 
-$o-dark-100: #434054;
-$o-dark-80: #212D38;
-$o-dark-60: #A8A4BF;
-$o-dark-40: #212D38;
-$o-dark-20: #212D38;
-$o-dark-0: #F4F3FE;
 
+  // Darkscale
+
+  $bmr-dark-100:                #1e2e44;
+  $bmr-dark-80:                 #496174;
+  $bmr-dark-60:                 #889eb0;
+  $bmr-dark-40:                 #b7c8d7;
+  $bmr-dark-20:                 #e6edf3;
+  $bmr-dark-0:                  #f3f6fa;

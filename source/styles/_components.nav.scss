@@ -40,7 +40,7 @@
     .c-logo {
       
       path {
-        fill: $o-primary;
+        fill: $bmr-teal;
       }
     }
   }
@@ -71,11 +71,11 @@
 
 
   &:hover {
-    color: $o-primary;
+    color: $bmr-teal;
     // transform: scale(0.95);
   }
   
   &.is-active {
-    color: $o-primary;
+    color: $bmr-teal;
   }
 }

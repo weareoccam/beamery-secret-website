@@ -5,7 +5,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: $white;
+  background: $bmr-white;
   opacity: 0;
   visibility: hidden;
   z-index: 200;
@@ -46,12 +46,12 @@
 
 .c-mobile-nav__link {
   display: block;
-  color: $o-dark-100;
+  color: $bmr-dark-100;
   padding: $spacing-small/2 0;
   @include font-size($h2-font-size);
 }
 
 .c-mobile-nav__link--secondary {
-  color: $o-dark-100;
+  color: $bmr-dark-100;
   @include font-size($h4-font-size);
 }

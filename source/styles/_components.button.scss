@@ -11,8 +11,6 @@
   font-weight: $font-weight-bold;
   vertical-align: top;
   border-radius: $border-radius;
-  // text-transform: uppercase;
-  // letter-spacing: $letter-spacing-lg;
   transition: background-color $animation-time $animation-curve, color $animation-time $animation-curve, box-shadow $animation-time $animation-curve;
 
   @include mq(medium-up) {
@@ -31,32 +29,32 @@
 // Types
 
 .c-btn--primary {
-  background-color: $o-primary;
-  color: $white;
+  background-color: $bmr-teal;
+  color: $bmr-white;
 
   &:hover,
   &:focus,
   &:active {
-    background-color: mix($o-primary, $black, 95%);
+    background-color: mix($bmr-teal, $bmr-dark-0, 95%);
   }
 }
 
 .c-btn--secondary {
-  box-shadow: inset 0 0 0 1px $o-primary;
-  color: $o-primary;
+  box-shadow: inset 0 0 0 1px $bmr-teal;
+  color: $bmr-teal;
 
   &:hover,
   &:focus,
   &:active {
-    color: $white;
-    background-color: $o-primary;
-    box-shadow: inset 0 0 0 1px $o-primary;
+    color: $bmr-white;
+    background-color: $bmr-teal;
+    box-shadow: inset 0 0 0 1px $bmr-teal;
   }
 }
 
 .c-btn--white {
-  background-color: $white;
-  color: $o-dark-100;
+  background-color: $bmr-white;
+  color: $bmr-dark-100;
 
   &:hover,
   &:focus,
