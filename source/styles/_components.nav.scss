@@ -1,0 +1,81 @@
+.c-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;  
+
+  @include vertical-padding(1.5rem, 1.5rem);
+
+  @include mq(small-up) {
+    @include vertical-padding(2rem, 2rem);
+  }
+
+  @include mq(medium-up) {
+    @include vertical-padding(3rem, 3rem);
+  }
+
+  @include mq(large-up) {
+    @include vertical-padding(5rem, 5rem);
+  }
+}
+
+.c-nav__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.c-nav__logo {
+  @include transition;
+  // @include vertical-padding(1rem, 1rem);
+  display: block;
+  font-weight: $font-weight-bold;
+  letter-spacing: -0.5px;
+  font-size: 24px;
+
+  &:hover {
+    transform: scale(0.95);
+
+    .c-logo {
+      
+      path {
+        fill: $o-primary;
+      }
+    }
+  }
+}
+
+.c-nav__toggle {
+  position: relative;
+  z-index: 250;
+  margin: -$spacing-medium;
+  padding: $spacing-medium;
+}
+
+.c-nav__item {
+  display: inline-block;
+  margin-left: $spacing-x-large;
+}
+
+.c-nav__link {
+  display: inline-block;
+  position: relative;
+  transition: all $animation-time $animation-curve;
+  font-weight: $font-weight-bold;
+  text-transform: lowercase;
+  opacity: 1;
+  padding: $spacing-medium 0;
+
+  font-size: 14px; // Need to fix this using respective mq's and variables
+
+
+  &:hover {
+    color: $o-primary;
+    // transform: scale(0.95);
+  }
+  
+  &.is-active {
+    color: $o-primary;
+  }
+}

@@ -1,0 +1,31 @@
+// Generic
+
+.c-section {
+  position: relative;
+  // @include vertical-padding(3rem);
+  margin-bottom: $spacing-xxx-large;
+
+  @include mq(small-up) {
+    // @include vertical-padding(4rem);
+    margin-bottom: $spacing-xxx-large;
+  }
+
+  @include mq(medium-up) {
+    // @include vertical-padding(6rem);
+    margin-bottom: $spacing-xxx-large;
+  }
+
+  @include mq(large-up) {
+    // @include vertical-padding(8rem);
+    margin-bottom: $spacing-xxx-large;
+  }
+
+  @include mq(x-large-up) {
+    // @include vertical-padding(10rem);
+    margin-bottom: $spacing-xxx-large;
+  }
+}
+
+.c-section--flush-bottom {
+  padding-bottom: 0;
+}

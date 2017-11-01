@@ -1,0 +1,21 @@
+// List
+
+.o-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  // padding-left: $spacing-large;
+}
+
+.o-list--inline {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -$spacing-smallest;
+}
+
+
+// Inline list
+
+.o-inline-list__item {
+  padding: $spacing-smallest;
+}

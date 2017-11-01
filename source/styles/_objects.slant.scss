@@ -1,0 +1,49 @@
+// Icons
+
+.o-slant {
+  display: block;
+  position: absolute;
+  top: -1800px;
+  left: 0;
+  width: 100%;
+  height: 2000px;
+  transform-origin: center;
+  overflow: visible;
+  background-color: $o-dark-0;
+
+  @include mq(medium-up) {
+    top: -1650px;
+  }
+
+  @include mq(large-up) {
+    top: -1500px;
+  }
+}
+
+.o-slant--top {
+  top: -1900px;
+  transform: skewY(35deg);
+  z-index: -1;
+
+  @include mq(medium-up) {
+    top: -1750px;
+  }
+
+  @include mq(large-up) {
+    top: -1600px;
+  }
+}
+
+.o-slant--bottom {
+  transform: skewY(25deg);
+  opacity: 0.5;
+  z-index: -2;
+}
+
+.o-slant--orange {
+  background-image: linear-gradient(-120deg, #FFE8C5 0%, #FFCFBA 50%, #F2EAA8 100%);
+}
+
+.o-slant--green {
+  background-image: linear-gradient(#E4EFDE 0%, #D5EDF3 50%, #F3EBF2 100%);
+}

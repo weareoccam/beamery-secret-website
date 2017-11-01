@@ -1,0 +1,11 @@
+.c-link {
+  @include transition;
+  display: inline-block;
+  position: relative;
+  color: $o-primary;
+  letter-spacing: -0.5px;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
